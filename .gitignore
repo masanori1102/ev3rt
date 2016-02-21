@@ -26,3 +26,61 @@
 *.exe
 *.out
 *.app
+
+# for emacs:
+*~
+\#*
+.\#*
+
+# for vi:
+*.swp
+
+# for svn
+.svn
+
+# for Visual Studio
+*.pdb
+*.mdb
+*.suo
+UpgradeLog*.htm
+
+# for Xamarin Studio
+*.userprefs
+
+# for common
+*.bak
+*.tmp
+~$$*.*
+*.~*
+
+# for Visual Studio Code
+Code
+
+# - 0.7.x
+.settings
+
+# 0.8.x -
+.vscode
+
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
