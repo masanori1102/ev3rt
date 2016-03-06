@@ -54,6 +54,7 @@ UpgradeLog*.htm
 *.tmp
 ~$$*.*
 *.~*
+*.*~
 
 # for Visual Studio Code
 Code
