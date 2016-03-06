@@ -1,3 +1,27 @@
+2016-02-28 Version Beta 6
+* Sensors
+  - Support RGB-RAW mode of EV3 color sensor
+  - Support I2C sensors
+	- Add API for HiTechnic NXT Acceleration Sensor
+	- Add API for NXT Temperature Sensor (9749)
+* Application Loader
+  - CRE_DTQ/CRE_PDQ/CRE_MTX are supported in dynamic loading mode
+* Bluetooth
+  - Support chip CC2560A used by recent EV3 models
+* Experimental USB support
+  - EV3 brick can act as SD card reader by connecting the PC port (mini USB)
+  - Application will be terminated if USB is connected
+  - Note 1: Bluetooth may not work when USB is connected
+  - Note 2: Unplugging the USB cable without ejecting the SD card may prevent
+    USB function from working until EV3 is restarted. (especially in OS X)
+* Miscellaneous
+  - Boot much faster by optimizing initialize_sections()
+  - Source code in GitHub is used from this release, some changes including:
+    - workspace is located in 'hrp2/sdk/workspace' now
+	- 'make app=<app_dir_name>' is used to build app module for dynamic loading mode now
+	- 'make img=<app_dir_name>' is used to build uImage for standalone mode now
+  - Updated NGKI specification to release 1.7.1 from release 1.7.0.
+
 2015-12-04 Version Beta 5-2
 * Application Loader
   - Fixed a bug that flags and semaphores can't be accessed (E_OACV) in dynamic loading mode.
