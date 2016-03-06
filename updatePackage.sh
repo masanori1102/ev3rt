@@ -43,6 +43,11 @@ rm $2.zip
 cp -r ../$2/* .
 xz -dv hrp2.tar.xz
 tar -xvf hrp2.tar
+
+# Update Doxygen files
+updateDoxyfiles.sh
+
+# Remove unnessary files.
 rm hrp2.tar
 rm -rf ../$2/
 rm .zip*
