@@ -45,7 +45,7 @@ xz -dv hrp2.tar.xz
 tar -xvf hrp2.tar
 
 # Update Doxygen files
-bash updateDoxyfiles.sh
+bash updateDoxyfiles.sh NoCommit
 
 # Remove unnessesary files
 rm hrp2.tar

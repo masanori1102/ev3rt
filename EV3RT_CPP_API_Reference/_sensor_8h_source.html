@@ -97,11 +97,11 @@ $(document).ready(function(){initNavTree('_sensor_8h_source.html','');});
 <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">//</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// Sensor.h</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">//</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">// Copyright 2009 by Takashi Chikamasa, Jon C. Martin and Robert W. Kramer</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">// Copyright (c) 2015-2016 Embedded Technology Software Design Robot Contest</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">//</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#ifndef SENSOR_H_</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#define SENSOR_H_</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#ifndef EV3CPPAPI_SENSOR_H_</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#define EV3CPPAPI_SENSOR_H_</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_port_8h.html">Port.h</a>&quot;</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
@@ -127,11 +127,11 @@ $(document).ready(function(){initNavTree('_sensor_8h_source.html','');});
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;}; <span class="comment">// class Sensor</span></div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;}  <span class="comment">// namespace ev3api</span></div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor">#endif // ! EV3CPPAPI_SENSOR_H_</span></div>
 <div class="ttc" id="namespaceev3api_html"><div class="ttname"><a href="namespaceev3api.html">ev3api</a></div><div class="ttdef"><b>Definition:</b> Clock.h:12</div></div>
 <div class="ttc" id="_port_8h_html"><div class="ttname"><a href="_port_8h.html">Port.h</a></div><div class="ttdoc">モータ/センサポート関連定義 </div></div>
 <div class="ttc" id="classev3api_1_1_sensor_html_aa7b29e15bdf3e8cbce75b9ef2beb2a3f"><div class="ttname"><a href="classev3api_1_1_sensor.html#aa7b29e15bdf3e8cbce75b9ef2beb2a3f">ev3api::Sensor::getPort</a></div><div class="ttdeci">sensor_port_t getPort(void) const </div><div class="ttdef"><b>Definition:</b> Sensor.h:26</div></div>
-<div class="ttc" id="_port_8h_html_a8d17f8fabb486d5815d626610983e82d"><div class="ttname"><a href="_port_8h.html#a8d17f8fabb486d5815d626610983e82d">ePortS</a></div><div class="ttdeci">ePortS</div><div class="ttdef"><b>Definition:</b> Port.h:16</div></div>
+<div class="ttc" id="_port_8h_html_a8d17f8fabb486d5815d626610983e82d"><div class="ttname"><a href="_port_8h.html#a8d17f8fabb486d5815d626610983e82d">ePortS</a></div><div class="ttdeci">ePortS</div><div class="ttdef"><b>Definition:</b> Port.h:18</div></div>
 <div class="ttc" id="classev3api_1_1_sensor_html"><div class="ttname"><a href="classev3api_1_1_sensor.html">ev3api::Sensor</a></div><div class="ttdef"><b>Definition:</b> Sensor.h:18</div></div>
 <div class="ttc" id="classev3api_1_1_sensor_html_a2ae1cfed88e7d67c96456248c256875c"><div class="ttname"><a href="classev3api_1_1_sensor.html#a2ae1cfed88e7d67c96456248c256875c">ev3api::Sensor::~Sensor</a></div><div class="ttdeci">virtual ~Sensor(void)</div><div class="ttdef"><b>Definition:</b> Sensor.h:45</div></div>
 <div class="ttc" id="classev3api_1_1_sensor_html_a07b73ea90f6a17cd9cb49444d7bb70ff"><div class="ttname"><a href="classev3api_1_1_sensor.html#a07b73ea90f6a17cd9cb49444d7bb70ff">ev3api::Sensor::Sensor</a></div><div class="ttdeci">Sensor(ePortS port, sensor_type_t type)</div><div class="ttdef"><b>Definition:</b> Sensor.h:34</div></div>
@@ -141,7 +141,7 @@ $(document).ready(function(){initNavTree('_sensor_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><b>Sensor.h</b></li>
-    <li class="footer">2016年03月02日(水) 11時59分49秒作成 - EV3RT C++ API Reference / 構成: 
+    <li class="footer">2016年03月14日(月) 13時10分05秒作成 - EV3RT C++ API Reference / 構成: 
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

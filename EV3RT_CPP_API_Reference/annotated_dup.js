@@ -7,6 +7,7 @@ var annotated_dup =
       [ "Motor", "classev3api_1_1_motor.html", "classev3api_1_1_motor" ],
       [ "Sensor", "classev3api_1_1_sensor.html", "classev3api_1_1_sensor" ],
       [ "SonarSensor", "classev3api_1_1_sonar_sensor.html", "classev3api_1_1_sonar_sensor" ],
+      [ "Steering", "classev3api_1_1_steering.html", "classev3api_1_1_steering" ],
       [ "TouchSensor", "classev3api_1_1_touch_sensor.html", "classev3api_1_1_touch_sensor" ]
     ] ]
 ];
