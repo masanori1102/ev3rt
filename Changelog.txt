@@ -1,3 +1,12 @@
+2016-03-16 Version Beta 6-2
+* Sensors
+  - Configuring analog sensor with ev3_sensor_config() will wait 2ms to ensure that sensor value is updated
+* Miscellaneous
+  - SIO_PORT_DEFAULT can be set to LCD, BT or UART in rc.conf.ini now
+  - Optimize BTstack database cache flush overhead, and this can also speed up USB eject handling
+  - PIL (Platform Interface Layer) version is upated to 5
+  - Remove some legacy code
+
 2016-03-14 Version Beta 6-1
 * Sensors
   - Fix a bug that analog sensors won't work until port is configured as UART sensor port
