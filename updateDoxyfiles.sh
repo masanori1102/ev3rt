@@ -6,7 +6,9 @@ rm -rf hrp2/sdk/workspace/html/
 # Execute doxygen
 doxygen workspace.Doxyfile
 
-if [ $1 -eq 1 ]
+echo "$1"
+
+if [ "${1}" = "Commit" ]
 then
   # Commit files
   git add hrp2/sdk/workspace/html
