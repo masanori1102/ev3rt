@@ -4,7 +4,6 @@
 *.o
 *.obj
 OBJ
-obj
 
 # Precompiled Headers
 *.gch
@@ -12,22 +11,21 @@ obj
 
 # Compiled Dynamic libraries
 *.so
-*.dylib
 *.dll
-
-# Fortran module files
-*.mod
 
 # Compiled Static libraries
 *.lai
 *.la
-*.a
-*.lib
 
 # Executables
-*.exe
 *.out
-*.app
+hrp2/cfg/cfg/cfg
+hrp2/sdk/bin
+hrp2/sdk/OBJ
+hrp2/sdk/build.log
+hrp2/sdk/app
+hrp2/sdk/hrp2
+hrp2/sdk/uImage
 
 # for emacs:
 *~
@@ -40,27 +38,34 @@ obj
 # for svn
 .svn
 
-# for Visual Studio
+# for ETrobo
+x86
+obj
+Debug
+UnitTest
+Release_RechargeableBattery
 *.pdb
 *.mdb
-*.suo
-UpgradeLog*.htm
 
 # for Xamarin Studio
 *.userprefs
+bin/Release/*.xml
+
+# for Visual Studio
+*.suo
+UpgradeLog*.htm
+browse.VC.db
 
 # for common
 *.bak
+
+# for Doxygen
 *.tmp
 ~$$*.*
 *.~*
-*.*~
 
 # for Visual Studio Code
 Code
-
-# - 0.7.x
-.settings
 
 # 0.8.x -
 .vscode
