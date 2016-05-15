@@ -15,7 +15,7 @@ if [ "${1}" = "Commit" ]
 then
     # Commit files
     git add ${OUTPUT_PATH}
-    git commit -am "#412 Update doxyfiles"
+    git commit -am "#1 Update doxyfiles"
 fi
 
 exit 0
