@@ -18,7 +18,8 @@ git push origin tasks/1:tasks/1
 # Remove `tasks/1` branch
 ./scripts/remove_branch.sh tasks/1
 
-# Merge all branches
-./scripts/merge_all.sh
+# Merge branches
+git checkout master
+git pull
 
 exit 0
