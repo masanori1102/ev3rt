@@ -10,8 +10,4 @@ make
 
 cd ${projectRoot}
 
-# Cancel modifications the following *.a
-git checkout -- ./hrp2/sdk/common/library/lib2/lib2-standalone.a
-git checkout -- ./hrp2/sdk/common/library/libcpp-test/libcpp-test-standalone.a
-
 exit 0
