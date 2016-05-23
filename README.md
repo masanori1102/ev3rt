@@ -17,15 +17,15 @@ TOPPERS([Download – EV3 Platform](http://dev.toppers.jp/trac_user/ev3pf/wiki/D
 
 |項目|値|
 | --- |---|---|
-|実行するコマンド|`./scripts/createEnv_and_makeAll.sh`|
-|対象ディレクトリ|`hrp2/sdk/workspace`以下|
-|出力先ディレクトリ|`hrp2/sdk/bin/{app | img}/{ディレクトリ名}`以下(にバイナリファイルとビルドログ、オブジェクトが出力される)|
+|実行するコマンド|[./scripts/createEnv_and_makeAll.sh](scripts/createEnv_and_makeAll.sh)|
+|対象ディレクトリ|[hrp2/sdk/workspace](hrp2/sdk/workspace)以下|
+|出力先ディレクトリ|[hrp2/sdk](hrp2/sdk)`/bin/{app | img}/{ディレクトリ名}`以下(にバイナリファイルとビルドログ、オブジェクトが出力される)|
 
 ## 2. Doxygenの更新とmasterブランチのマージ
 対象ディレクトリのソースコードを基に、DoxygenとGraphvizのファイルを生成する
 
 |項目|値|
 | --- |---|---|
-|実行するコマンド|`./scripts/update_merge_Doxyfiles.sh`|
-|対象ディレクトリ|`hrp2/sdk/workspace`|
-|出力先ディレクトリ|`hrp2/sdk/html`|
+|実行するコマンド|[./scripts/update_merge_Doxyfiles.sh](scripts/update_merge_Doxyfiles.sh)|
+|対象ディレクトリ|[hrp2/sdk/workspace](hrp2/sdk/workspace)以下|
+|出力先ディレクトリ|[hrp2/sdk/html](hrp2/sdk/html)|
