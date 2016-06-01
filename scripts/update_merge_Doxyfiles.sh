@@ -10,6 +10,9 @@ git config --global push.default upstream
 
 # Update docs
 ./scripts/updateDoxyfiles.sh Commit
+if [ $? -ne 0 ]; then
+    exit $2
+fi
 git push origin tasks/1:tasks/1
 
 # Merge branch into `master` from `tasks/1`
