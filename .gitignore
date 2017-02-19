@@ -48,7 +48,6 @@ UnitTest
 Release_RechargeableBattery
 *.pdb
 *.mdb
-*.a
 
 # for Xamarin Studio
 *.userprefs
